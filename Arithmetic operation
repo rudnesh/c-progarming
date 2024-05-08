@@ -7,6 +7,8 @@ int main() {
     printf("Enter the two numbewr ");
     scanf("%d %d",&a,&b);
     printf("addition of two number =%d\n",a+b);
+    printf("subration of two number =%d\n",a-b);
     printf("multiplication of two number=%d",a*b);
+    printf("division of two number=%d",a/b);
     return 0;
 }
