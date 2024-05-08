@@ -1,0 +1,15 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include<math.h>
+void  main() {
+    int b;
+    float c;
+    //add and subract and multiply
+    printf("Enter tside of square " );
+
+    scanf("%d",&b);
+    int area =b*b;
+    int perimeter=4*b;
+    printf("area =%d , perimeter =%d \n",area,perimeter);
+
+}
