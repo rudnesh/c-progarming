@@ -1,0 +1,15 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include<math.h>
+void  main() {
+    int b;
+    float pi=3.14159;
+
+    printf("Enter radius of sphere " );
+
+    scanf("%d",&b);
+    float area =4/3*pi*b*b*b;
+ 
+    printf("volume =%f \n",area);
+
+}
