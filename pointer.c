@@ -1,4 +1,9 @@
 #include<stdio.h>
-void main(){
-	printf("hi");
+int main(){
+	int var=20;
+	int *p=&var;
+	printf("%p",p);
+	return 0;
+
+
 }
